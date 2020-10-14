@@ -45,6 +45,14 @@
    <div class="container">
       <%= yield %>
    </div>
+      <div class="container">
+        <div class="col-md-10 col-md-offset-2">
+              <div class="col-md-2">
+            <%= image_tag("image.jpeg", :alt => "rss feed") %>
+        </div>
+    </div>
 
 </body>
+<%= render 'layouts/footer' %>
+
 </html>
